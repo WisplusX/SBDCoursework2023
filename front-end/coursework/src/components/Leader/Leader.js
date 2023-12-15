@@ -38,6 +38,7 @@ function Leader() {
         <ReportCard></ReportCard>
 
         <Divider
+          id="adddata"
           variant="middle"
           sx={{ margin: "auto", mt: 5, maxWidth: 800 }}
         />
@@ -62,6 +63,7 @@ function Leader() {
         {tabValueForAdd === 1 && <AddVehicleForm />}
 
         <Divider
+          id="changedata"
           variant="middle"
           sx={{ margin: "auto", mt: 5, maxWidth: 800 }}
         />

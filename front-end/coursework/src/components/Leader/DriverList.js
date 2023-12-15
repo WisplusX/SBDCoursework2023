@@ -198,7 +198,14 @@ function DriverList() {
           onChange={handlePageChange}
           color="primary"
           size="large"
-          sx={{ mt: 2, mb: 4, textAlign: "center" }}
+          sx={{
+            mt: 2,
+            mb: 4,
+            textAlign: "center",
+            "& .Mui-selected": {
+              backgroundColor: "#2399EF",
+            },
+          }}
         />
       </CardContent>
     </Card>

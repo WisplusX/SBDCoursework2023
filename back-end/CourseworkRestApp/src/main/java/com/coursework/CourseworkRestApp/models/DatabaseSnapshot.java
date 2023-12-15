@@ -24,6 +24,13 @@ public class DatabaseSnapshot {
         this.createdAt = LocalDateTime.now();
     }
 
+    public DatabaseSnapshot(String id, String snapshotData) {
+        this.id = id;
+        this.snapshotData = snapshotData;
+        this.createdAt = LocalDateTime.now();
+    }
+
+
     public String getId() {
         return id;
     }
